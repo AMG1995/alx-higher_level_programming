@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a base geometry class BaseGeometry."""
+"""Defines a base geometry class."""
 
 
 class BaseGeometry:
@@ -16,8 +16,8 @@ class BaseGeometry:
             name (str): The name of the parameter.
             value (int): The parameter to validate.
         Raises:
-            TypeError: If value is not an integer.
-            ValueError: If value is <= 0.
+            TypeError: If value is not an inte.
+            ValueError: If value is  <= 0.
         """
         if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
